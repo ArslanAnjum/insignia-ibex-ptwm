@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 @RequestMapping(value="/")
-public class TestingController {
+public class MainController {
 
-    @GetMapping(value="/main")
+    @GetMapping
     public String getMainPage(){
         return "main";
     }
